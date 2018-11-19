@@ -10,9 +10,10 @@
   "scripts": {
     "start": "nodemon server/index.js",
     "build": "webpack --mode production -w",
-    "seed": "node database/seed.js",
+    "datagenerate": "node database/seed.js",
     "database": "mysql -u root < database/schema.sql",
-    "test": "jest --coverage --",
+    "seed": "database/seed.sh",
+    "test": "jest --coverage --"
   },
   "dependencies": {
     "@babel/core": "^7.1.2",

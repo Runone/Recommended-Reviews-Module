@@ -2,7 +2,6 @@ const mysql = require('mysql');
 
 // connect to database
 const connection = mysql.createConnection({
-  host: 'localhost',
   user: 'root',
   database: 'yump_SF',
 });

@@ -27,7 +27,9 @@
 
 > -Npm run database (To build database in mysql)
 
-> -Npm run seed (Seed mysql database with mock data)
+> -Npm run datagenerate (generate mock data with csv files)
+
+> -Npm run seed (seed mysql database)
 
 > -Npm start (Express server)
 

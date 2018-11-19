@@ -36,6 +36,19 @@
 > -Npm test (To run enzyme/jest test)
 
 
+## Open Chrome
+
+You can render restaurants of id n is between 1-100:
+
+> -http://localhost:3000/n
+
+Example: render restaurant of id 23:
+
+> -http://localhost:3000/23
+
+
+Default: http://localhost:3000
+
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
